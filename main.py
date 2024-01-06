@@ -42,7 +42,7 @@ def main():
     '''
     size = 100 # Amount of people in the lineup (100 people)
     rejections = 37 # ~36.8% of size is mathematically best
-    runs = 10000 # Number of tables tested - more runs is more accurate
+    runs = 1000 # Number of tables tested - more runs is more accurate
     # Increase runs as much as you'd like, but I did 20000000 and it took 20 minutes
     
     perfects = 0
