@@ -1,10 +1,10 @@
+import random
 '''
 Create randomized list containing 
 all numbers from 1 to specified number
 representing compatibility
 '''
 def make_list(count):
-    import random
     List = list(range(1, count + 1))
     random.shuffle(List)
     return List
